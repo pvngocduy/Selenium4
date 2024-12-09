@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+    <test name="Test on Dynamic Browser">
+        <parameter name="browser" value="CHROME"/> <!-- Có thể thay bằng FIREFOX, EDGE, SAFARI -->
+        <classes>
+            <class name="testcase.TestCaseRegister"/>
+        </classes>
+    </test>
+</suite>
